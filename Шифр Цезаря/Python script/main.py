@@ -8,7 +8,7 @@ from Cesar2 import *
 
 
 def main():
-    message = "mage"
+    message = "mage zip"
     key = "keyurt"
     offset = 3
     encrypted_message = cesar1(message, key, offset)

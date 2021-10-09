@@ -8,12 +8,13 @@ def create_alphabet():
 
 
 def rotate_alphabet(alphabet, offset):
-    rotated_alphabet = alphabet.copy();
+    rotated_alphabet = alphabet.copy()
 
     # rotate alphabet using offset
     for i in range(offset):
         for j in range(len(rotated_alphabet) - 1, 0, -1):
-            rotated_alphabet[j], rotated_alphabet[j - 1] = rotated_alphabet[j - 1], rotated_alphabet[j]
+            rotated_alphabet[j], rotated_alphabet[j - 1] = rotated_alphabet[
+                j - 1], rotated_alphabet[j]
 
     return rotated_alphabet
 

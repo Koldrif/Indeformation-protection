@@ -1,0 +1,16 @@
+F:\Рабочее пространство\Универ\Защита информации\Indeformation-protection\Frequency Analyse\obj\Debug\net5.0\Frequency Analyse.csproj.AssemblyReference.cache
+F:\Рабочее пространство\Универ\Защита информации\Indeformation-protection\Frequency Analyse\obj\Debug\net5.0\Frequency Analyse.GeneratedMSBuildEditorConfig.editorconfig
+F:\Рабочее пространство\Универ\Защита информации\Indeformation-protection\Frequency Analyse\obj\Debug\net5.0\Frequency Analyse.AssemblyInfoInputs.cache
+F:\Рабочее пространство\Универ\Защита информации\Indeformation-protection\Frequency Analyse\obj\Debug\net5.0\Frequency Analyse.AssemblyInfo.cs
+F:\Рабочее пространство\Универ\Защита информации\Indeformation-protection\Frequency Analyse\obj\Debug\net5.0\Frequency Analyse.csproj.CoreCompileInputs.cache
+F:\Рабочее пространство\Универ\Защита информации\Indeformation-protection\Frequency Analyse\bin\Debug\net5.0\Frequency Analyse.exe
+F:\Рабочее пространство\Универ\Защита информации\Indeformation-protection\Frequency Analyse\bin\Debug\net5.0\Frequency Analyse.deps.json
+F:\Рабочее пространство\Универ\Защита информации\Indeformation-protection\Frequency Analyse\bin\Debug\net5.0\Frequency Analyse.runtimeconfig.json
+F:\Рабочее пространство\Универ\Защита информации\Indeformation-protection\Frequency Analyse\bin\Debug\net5.0\Frequency Analyse.runtimeconfig.dev.json
+F:\Рабочее пространство\Универ\Защита информации\Indeformation-protection\Frequency Analyse\bin\Debug\net5.0\Frequency Analyse.dll
+F:\Рабочее пространство\Универ\Защита информации\Indeformation-protection\Frequency Analyse\bin\Debug\net5.0\ref\Frequency Analyse.dll
+F:\Рабочее пространство\Универ\Защита информации\Indeformation-protection\Frequency Analyse\bin\Debug\net5.0\Frequency Analyse.pdb
+F:\Рабочее пространство\Универ\Защита информации\Indeformation-protection\Frequency Analyse\obj\Debug\net5.0\Frequency Analyse.dll
+F:\Рабочее пространство\Универ\Защита информации\Indeformation-protection\Frequency Analyse\obj\Debug\net5.0\ref\Frequency Analyse.dll
+F:\Рабочее пространство\Универ\Защита информации\Indeformation-protection\Frequency Analyse\obj\Debug\net5.0\Frequency Analyse.pdb
+F:\Рабочее пространство\Универ\Защита информации\Indeformation-protection\Frequency Analyse\obj\Debug\net5.0\Frequency Analyse.genruntimeconfig.cache

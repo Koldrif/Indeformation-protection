@@ -1,0 +1,16 @@
+F:\Рабочее пространство\Универ\Защита информации\Indeformation-protection\Шифр Цезаря\CS pragramm\bin\Debug\net5.0\CS pragramm.exe
+F:\Рабочее пространство\Универ\Защита информации\Indeformation-protection\Шифр Цезаря\CS pragramm\bin\Debug\net5.0\CS pragramm.deps.json
+F:\Рабочее пространство\Универ\Защита информации\Indeformation-protection\Шифр Цезаря\CS pragramm\bin\Debug\net5.0\CS pragramm.runtimeconfig.json
+F:\Рабочее пространство\Универ\Защита информации\Indeformation-protection\Шифр Цезаря\CS pragramm\bin\Debug\net5.0\CS pragramm.runtimeconfig.dev.json
+F:\Рабочее пространство\Универ\Защита информации\Indeformation-protection\Шифр Цезаря\CS pragramm\bin\Debug\net5.0\CS pragramm.dll
+F:\Рабочее пространство\Универ\Защита информации\Indeformation-protection\Шифр Цезаря\CS pragramm\bin\Debug\net5.0\ref\CS pragramm.dll
+F:\Рабочее пространство\Универ\Защита информации\Indeformation-protection\Шифр Цезаря\CS pragramm\bin\Debug\net5.0\CS pragramm.pdb
+F:\Рабочее пространство\Универ\Защита информации\Indeformation-protection\Шифр Цезаря\CS pragramm\obj\Debug\net5.0\CS pragramm.csproj.AssemblyReference.cache
+F:\Рабочее пространство\Универ\Защита информации\Indeformation-protection\Шифр Цезаря\CS pragramm\obj\Debug\net5.0\CS pragramm.GeneratedMSBuildEditorConfig.editorconfig
+F:\Рабочее пространство\Универ\Защита информации\Indeformation-protection\Шифр Цезаря\CS pragramm\obj\Debug\net5.0\CS pragramm.AssemblyInfoInputs.cache
+F:\Рабочее пространство\Универ\Защита информации\Indeformation-protection\Шифр Цезаря\CS pragramm\obj\Debug\net5.0\CS pragramm.AssemblyInfo.cs
+F:\Рабочее пространство\Универ\Защита информации\Indeformation-protection\Шифр Цезаря\CS pragramm\obj\Debug\net5.0\CS pragramm.csproj.CoreCompileInputs.cache
+F:\Рабочее пространство\Универ\Защита информации\Indeformation-protection\Шифр Цезаря\CS pragramm\obj\Debug\net5.0\CS pragramm.dll
+F:\Рабочее пространство\Универ\Защита информации\Indeformation-protection\Шифр Цезаря\CS pragramm\obj\Debug\net5.0\ref\CS pragramm.dll
+F:\Рабочее пространство\Универ\Защита информации\Indeformation-protection\Шифр Цезаря\CS pragramm\obj\Debug\net5.0\CS pragramm.pdb
+F:\Рабочее пространство\Универ\Защита информации\Indeformation-protection\Шифр Цезаря\CS pragramm\obj\Debug\net5.0\CS pragramm.genruntimeconfig.cache

@@ -12,7 +12,9 @@ def cesar2_for_word(word="word", key="key"):
     array_of_z_indexes = []
     for i in range(len(word)):
         array_of_z_indexes.append(
-            (alphabet.index(word[i]) + array_of_key_indexes[i % (len(array_of_key_indexes))] + 1) % (len(alphabet)))
+            (alphabet.index(word[i]) +
+             array_of_key_indexes[i % (len(array_of_key_indexes))] + 1) %
+            (len(alphabet)))
 
     for i in array_of_z_indexes:
         array_of_chars.append(alphabet[i])
