@@ -1,4 +1,5 @@
 ﻿using System;
+using System.IO;
 using FrequencyAnalyse;
 
 namespace FA_Program
@@ -7,8 +8,11 @@ namespace FA_Program
     {
         static void Main(string[] args)
         {
-            var anal = new Analyzer("Война и мир.txt");
-            Console.WriteLine("Hello World!");
+            var analyzer = new Analyzer();
+            var fileName = "Война и мир.txt.enc";
+            var path = Path.Combine(Directory.GetCurrentDirectory());
+            var decodedText = analyzer.AnalyzeText(fileName);
+            File.WriteAllText(Path.Combine(path, $"{fileName}.out.txt"), decodedText);
         }
     }
 }
