@@ -1,37 +1,43 @@
 using System;
-using System.IO;
 using System.Collections.Generic;
-using System.Linq;
+using System.IO;
 using System.Text;
-using Frequency_Analyse;
 
-namespace FrequencyAnalyse
+namespace Frequency_Analyse
 {
     public class Analyzer
     {
         private string Text;
+        private string OriginalText;
 
         private List<Character> FrequencyTable;
         public List<Character> FrequencyTableOfCurrentText;
-        private List<Character> biGrammList;
+        private List<Character> BiGramList;
+        private List<Character> BiGramListOfCurrentText;
 
-        public Analyzer()
+        public Analyzer(string fileName)
         {
             FrequencyTable = new List<Character>();
             
+            this.Text = File.ReadAllText(Path.Combine(Directory.GetCurrentDirectory(), "src", $"{fileName}.txt"));
             
-            biGrammList = new List<Character>();
+            
+            BiGramList = new List<Character>();
+            BiGramListOfCurrentText = new List<Character>();
+            
             // Initialize Bi-Gram List
             for (int i = 1072; i < 1104; i++)
             {
                 for (int j = 1072; j < 1104; j++)
                 {
-                    biGrammList.Add(new Character(
+                    BiGramList.Add(new Character(
                         ((char)i).ToString() + ((char)j).ToString(), 0
                         ));
                 }
             }
 
+            BiGramListOfCurrentText.AddRange(BiGramList);
+            
             #region MonoGrammInitialize
 
             this.FrequencyTable.Add(new Character("а", 40487008));
@@ -73,14 +79,16 @@ namespace FrequencyAnalyse
             
             
             this.FrequencyTableOfCurrentText = new List<Character>();
-
-
+            
+            searchBiGramInOriginalText("Война и мир.txt");
+            FillBiGramsOfCurrentText();
+        
         }
 
-        public string AnalyzeText(string fileName)
+        public string MonoAnalyzeText(string fileName)
         {
-            this.Text = File.ReadAllText(Path.Combine(Directory.GetCurrentDirectory(), $"src/{fileName}.txt"));
             
+            //this.Text = File.ReadAllText(Path.Combine(Directory.GetCurrentDirectory(), $"src/{fileName}.txt"));
             
             // Code for mono-grams
             foreach (var character in Text)
@@ -114,10 +122,14 @@ namespace FrequencyAnalyse
             }
             #endregion
 
-            return decodeText();
+            var decodedText = monoDecodeText();
+            
+            File.WriteAllText(Path.Combine(Directory.GetCurrentDirectory(), $"{fileName}_MonoAnalyze.txt"), decodedText);
+            
+            return decodedText;
         }
 
-        private string decodeText()
+        private string monoDecodeText()
         {
             StringBuilder decodedText = new StringBuilder();
             foreach (var VARIABLE in Text)
@@ -154,6 +166,19 @@ namespace FrequencyAnalyse
 
             return false;
         }
+        
+        private bool ContainsBiGram(string character)
+        {
+            foreach (var VARIABLE in BiGramListOfCurrentText)
+            {
+                if (VARIABLE.Char == character)
+                {
+                    return true;
+                }
+            }
+
+            return false;
+        }
 
         private Character findChar(string character)
         {
@@ -166,6 +191,126 @@ namespace FrequencyAnalyse
             }
 
             return new Character("", -1);
+        }
+
+        private Character addBigramFrequency(string bigram)
+        {
+            foreach (var VARIABLE in BiGramList)
+            {
+                if (bigram == VARIABLE.Char)
+                {
+                    VARIABLE.Frequency++;
+                    return VARIABLE;
+                }
+            }
+
+            return new Character("", -1);
+        }
+        
+        private Character addBigramFrequencyToCurrentText(string bigram)
+        {
+            foreach (var VARIABLE in BiGramListOfCurrentText)
+            {
+                if (bigram == VARIABLE.Char)
+                {
+                    VARIABLE.Frequency++;
+                    return VARIABLE;
+                }
+            }
+
+            return null;
+        }
+        
+        private Character findBigram(string bigram)
+        {
+            foreach (var VARIABLE in BiGramListOfCurrentText)
+            {
+                if (bigram == VARIABLE.Char)
+                {
+                    return VARIABLE;
+                }
+            }
+
+            return null;
+        }
+
+        private void searchBiGramInOriginalText(string fileName)
+        {
+            this.OriginalText = File.ReadAllText(Path.Combine(Directory.GetCurrentDirectory(), $"src", fileName));
+            for (int i = 0; i+1 < OriginalText.Length; i++)
+            {
+                addBigramFrequency(OriginalText[i].ToString() + OriginalText[i + 1]);
+            }
+            
+            BiGramList.Sort();
+            
+            //Save bigrams in a file
+
+            var cacheDirectory = Path.Combine(Directory.GetCurrentDirectory(), "cache");
+
+            if(!Directory.Exists(cacheDirectory)) Directory.CreateDirectory(cacheDirectory) ;
+            
+            using var streamWrite =
+                new StreamWriter(Path.Combine(Directory.GetCurrentDirectory(), "cache", "Bigrams.txt"));
+            for (int i = 0; i < BiGramList.Count; i++)
+            {
+                streamWrite.WriteLine($"{i + 1}.\t'{BiGramList[i].Char}'\t{BiGramList[i].Frequency}");
+            }
+            
+            
+        }
+
+        private void FillBiGramsOfCurrentText()
+        {
+            for (int i = 0; i + 1 < Text.Length; i++)
+            {
+                var temp = Text[i].ToString() + Text[i + 1];
+                
+                    addBigramFrequencyToCurrentText(temp);
+            }
+            
+            BiGramListOfCurrentText.Sort();
+            
+            using var streamWrite =
+                new StreamWriter(Path.Combine(Directory.GetCurrentDirectory(), "cache", "BigramsOfEncodedText.txt"));
+            for (int i = 0; i < BiGramListOfCurrentText.Count; i++)
+            {
+                streamWrite.WriteLine($"{i + 1}.\t'{BiGramListOfCurrentText[i].Char}'\t{BiGramListOfCurrentText[i].Frequency}");
+            }
+        }
+
+        public string BigramsAnalyze()
+        {
+            StringBuilder decodedText = new StringBuilder();
+            
+            for (int i = 0; i+1 < Text.Length; i++)
+            {
+                string temp = Text[i].ToString() + Text[i + 1];
+                
+                if (" ,\r\n-—?!́:;.'()«»".Contains(temp[0]))
+                {
+                    decodedText.Append(temp[0]);
+                    continue;
+                }
+                else if (" ,\r\n-—?!́:;.'()«»".Contains(temp[1]))
+                {
+                    decodedText.Append(temp[1]);
+                    continue;
+                }
+
+                decodedText.Append(BiGramList[
+                    BiGramListOfCurrentText.IndexOf(
+                        findBigram(temp)
+                    )
+                ].Char);
+
+                
+
+            }
+
+            var finalText = decodedText.ToString();
+            File.WriteAllText(Path.Combine(Directory.GetCurrentDirectory(), $"_BigramAnalyze.txt"), finalText);
+            return finalText;
         }
     }
 }

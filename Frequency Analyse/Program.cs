@@ -1,6 +1,6 @@
 ﻿using System;
 using System.IO;
-using FrequencyAnalyse;
+using Frequency_Analyse;
 
 namespace FA_Program
 {
@@ -8,11 +8,13 @@ namespace FA_Program
     {
         static void Main(string[] args)
         {
-            var analyzer = new Analyzer();
+            var analyzer = new Analyzer("Война и мир.txt.enc");
             var fileName = "Война и мир.txt.enc";
             var path = Path.Combine(Directory.GetCurrentDirectory());
-            var decodedText = analyzer.AnalyzeText(fileName);
+            var decodedText = analyzer.MonoAnalyzeText(fileName);
             File.WriteAllText(Path.Combine(path, $"{fileName}.out.txt"), decodedText);
+            decodedText = analyzer.BigramsAnalyze();
+            Console.WriteLine(decodedText);
         }
     }
 }
