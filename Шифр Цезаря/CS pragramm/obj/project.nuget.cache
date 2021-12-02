@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "IhPCnqJCw10CU5WCQB55fT2YJtJdJtflER0t+DpVj0eAIqMuJ2hH42TxovUrEGMjdO/8APB9Z0Ftp+923RndxQ==",
+  "dgSpecHash": "LCFimfHNk+LMcPEeTzzYhSxPWJn5uiRIgZKqx5ph1A9KA9lBc3yEnXhDuzDrgWZhUJI7+poCDqkeYhboG+S9oQ==",
   "success": true,
   "projectFilePath": "F:\\Рабочее пространство\\Универ\\Защита информации\\Indeformation-protection\\Шифр Цезаря\\CS pragramm\\CS pragramm.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\vorob\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.11\\microsoft.netcore.app.host.win-x64.5.0.11.nupkg.sha512"
+  ],
   "logs": []
 }

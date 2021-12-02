@@ -1,0 +1,16 @@
+F:\Рабочее пространство\Универ\Защита информации\Indeformation-protection\independent-study\HashFunction\obj\Debug\net6.0\HashFunction.GlobalUsings.g.cs
+F:\Рабочее пространство\Универ\Защита информации\Indeformation-protection\independent-study\HashFunction\obj\Debug\net6.0\HashFunction.csproj.AssemblyReference.cache
+F:\Рабочее пространство\Универ\Защита информации\Indeformation-protection\independent-study\HashFunction\obj\Debug\net6.0\HashFunction.GeneratedMSBuildEditorConfig.editorconfig
+F:\Рабочее пространство\Универ\Защита информации\Indeformation-protection\independent-study\HashFunction\obj\Debug\net6.0\HashFunction.AssemblyInfoInputs.cache
+F:\Рабочее пространство\Универ\Защита информации\Indeformation-protection\independent-study\HashFunction\obj\Debug\net6.0\HashFunction.AssemblyInfo.cs
+F:\Рабочее пространство\Универ\Защита информации\Indeformation-protection\independent-study\HashFunction\obj\Debug\net6.0\HashFunction.csproj.CoreCompileInputs.cache
+F:\Рабочее пространство\Универ\Защита информации\Indeformation-protection\independent-study\HashFunction\bin\Debug\net6.0\HashFunction.exe
+F:\Рабочее пространство\Универ\Защита информации\Indeformation-protection\independent-study\HashFunction\bin\Debug\net6.0\HashFunction.deps.json
+F:\Рабочее пространство\Универ\Защита информации\Indeformation-protection\independent-study\HashFunction\bin\Debug\net6.0\HashFunction.runtimeconfig.json
+F:\Рабочее пространство\Универ\Защита информации\Indeformation-protection\independent-study\HashFunction\bin\Debug\net6.0\HashFunction.dll
+F:\Рабочее пространство\Универ\Защита информации\Indeformation-protection\independent-study\HashFunction\bin\Debug\net6.0\ref\HashFunction.dll
+F:\Рабочее пространство\Универ\Защита информации\Indeformation-protection\independent-study\HashFunction\bin\Debug\net6.0\HashFunction.pdb
+F:\Рабочее пространство\Универ\Защита информации\Indeformation-protection\independent-study\HashFunction\obj\Debug\net6.0\HashFunction.dll
+F:\Рабочее пространство\Универ\Защита информации\Indeformation-protection\independent-study\HashFunction\obj\Debug\net6.0\ref\HashFunction.dll
+F:\Рабочее пространство\Универ\Защита информации\Indeformation-protection\independent-study\HashFunction\obj\Debug\net6.0\HashFunction.pdb
+F:\Рабочее пространство\Универ\Защита информации\Indeformation-protection\independent-study\HashFunction\obj\Debug\net6.0\HashFunction.genruntimeconfig.cache

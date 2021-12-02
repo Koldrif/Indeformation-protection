@@ -1,0 +1,16 @@
+F:\Рабочее пространство\Универ\Защита информации\Indeformation-protection\independent-study\Diffie–Hellman_key_exchange\bin\Debug\net6.0\Diffie–Hellman_key_exchange.exe
+F:\Рабочее пространство\Универ\Защита информации\Indeformation-protection\independent-study\Diffie–Hellman_key_exchange\bin\Debug\net6.0\Diffie–Hellman_key_exchange.deps.json
+F:\Рабочее пространство\Универ\Защита информации\Indeformation-protection\independent-study\Diffie–Hellman_key_exchange\bin\Debug\net6.0\Diffie–Hellman_key_exchange.runtimeconfig.json
+F:\Рабочее пространство\Универ\Защита информации\Indeformation-protection\independent-study\Diffie–Hellman_key_exchange\bin\Debug\net6.0\Diffie–Hellman_key_exchange.dll
+F:\Рабочее пространство\Универ\Защита информации\Indeformation-protection\independent-study\Diffie–Hellman_key_exchange\bin\Debug\net6.0\ref\Diffie–Hellman_key_exchange.dll
+F:\Рабочее пространство\Универ\Защита информации\Indeformation-protection\independent-study\Diffie–Hellman_key_exchange\bin\Debug\net6.0\Diffie–Hellman_key_exchange.pdb
+F:\Рабочее пространство\Универ\Защита информации\Indeformation-protection\independent-study\Diffie–Hellman_key_exchange\obj\Debug\net6.0\Diffie–Hellman_key_exchange.GlobalUsings.g.cs
+F:\Рабочее пространство\Универ\Защита информации\Indeformation-protection\independent-study\Diffie–Hellman_key_exchange\obj\Debug\net6.0\Diffie–Hellman_key_exchange.csproj.AssemblyReference.cache
+F:\Рабочее пространство\Универ\Защита информации\Indeformation-protection\independent-study\Diffie–Hellman_key_exchange\obj\Debug\net6.0\Diffie–Hellman_key_exchange.GeneratedMSBuildEditorConfig.editorconfig
+F:\Рабочее пространство\Универ\Защита информации\Indeformation-protection\independent-study\Diffie–Hellman_key_exchange\obj\Debug\net6.0\Diffie–Hellman_key_exchange.AssemblyInfoInputs.cache
+F:\Рабочее пространство\Универ\Защита информации\Indeformation-protection\independent-study\Diffie–Hellman_key_exchange\obj\Debug\net6.0\Diffie–Hellman_key_exchange.AssemblyInfo.cs
+F:\Рабочее пространство\Универ\Защита информации\Indeformation-protection\independent-study\Diffie–Hellman_key_exchange\obj\Debug\net6.0\Diffie–Hellman_key_exchange.csproj.CoreCompileInputs.cache
+F:\Рабочее пространство\Универ\Защита информации\Indeformation-protection\independent-study\Diffie–Hellman_key_exchange\obj\Debug\net6.0\Diffie–Hellman_key_exchange.dll
+F:\Рабочее пространство\Универ\Защита информации\Indeformation-protection\independent-study\Diffie–Hellman_key_exchange\obj\Debug\net6.0\ref\Diffie–Hellman_key_exchange.dll
+F:\Рабочее пространство\Универ\Защита информации\Indeformation-protection\independent-study\Diffie–Hellman_key_exchange\obj\Debug\net6.0\Diffie–Hellman_key_exchange.pdb
+F:\Рабочее пространство\Универ\Защита информации\Indeformation-protection\independent-study\Diffie–Hellman_key_exchange\obj\Debug\net6.0\Diffie–Hellman_key_exchange.genruntimeconfig.cache

@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Diffie–Hellman_key_exchange/1.0.0": {
+        "runtime": {
+          "Diffie–Hellman_key_exchange.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Diffie–Hellman_key_exchange/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
