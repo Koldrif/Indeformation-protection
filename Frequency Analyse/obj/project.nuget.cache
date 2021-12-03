@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "CSL/j4zrsUeIKiNJBc6Htat5mUmFB+7eTtu6shfsTggOgN0L/OnzxMyzluKLzg+XKJaA8RpAG4SYYtYBH8v5rQ==",
+  "dgSpecHash": "rAr8ET3TzeomKAQZxTlz3lFWaR6l+sEHR03lQ0q66l2VPNfF6Blg27qiw/u2Ib1fSU51P64C8z8kOaEGx0GHmw==",
   "success": true,
   "projectFilePath": "F:\\Рабочее пространство\\Универ\\Защита информации\\Indeformation-protection\\Frequency Analyse\\Frequency Analyse.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\vorob\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\5.0.11\\microsoft.netcore.app.host.win-x64.5.0.11.nupkg.sha512"
+  ],
   "logs": []
 }

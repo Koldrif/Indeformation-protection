@@ -1,0 +1,16 @@
+F:\Рабочее пространство\Универ\Защита информации\Indeformation-protection\RSA\obj\Debug\net6.0\RSA.GlobalUsings.g.cs
+F:\Рабочее пространство\Универ\Защита информации\Indeformation-protection\RSA\obj\Debug\net6.0\RSA.csproj.AssemblyReference.cache
+F:\Рабочее пространство\Универ\Защита информации\Indeformation-protection\RSA\obj\Debug\net6.0\RSA.GeneratedMSBuildEditorConfig.editorconfig
+F:\Рабочее пространство\Универ\Защита информации\Indeformation-protection\RSA\obj\Debug\net6.0\RSA.AssemblyInfoInputs.cache
+F:\Рабочее пространство\Универ\Защита информации\Indeformation-protection\RSA\obj\Debug\net6.0\RSA.AssemblyInfo.cs
+F:\Рабочее пространство\Универ\Защита информации\Indeformation-protection\RSA\obj\Debug\net6.0\RSA.csproj.CoreCompileInputs.cache
+F:\Рабочее пространство\Универ\Защита информации\Indeformation-protection\RSA\bin\Debug\net6.0\RSA.exe
+F:\Рабочее пространство\Универ\Защита информации\Indeformation-protection\RSA\bin\Debug\net6.0\RSA.deps.json
+F:\Рабочее пространство\Универ\Защита информации\Indeformation-protection\RSA\bin\Debug\net6.0\RSA.runtimeconfig.json
+F:\Рабочее пространство\Универ\Защита информации\Indeformation-protection\RSA\bin\Debug\net6.0\RSA.dll
+F:\Рабочее пространство\Универ\Защита информации\Indeformation-protection\RSA\bin\Debug\net6.0\ref\RSA.dll
+F:\Рабочее пространство\Универ\Защита информации\Indeformation-protection\RSA\bin\Debug\net6.0\RSA.pdb
+F:\Рабочее пространство\Универ\Защита информации\Indeformation-protection\RSA\obj\Debug\net6.0\RSA.dll
+F:\Рабочее пространство\Универ\Защита информации\Indeformation-protection\RSA\obj\Debug\net6.0\ref\RSA.dll
+F:\Рабочее пространство\Универ\Защита информации\Indeformation-protection\RSA\obj\Debug\net6.0\RSA.pdb
+F:\Рабочее пространство\Универ\Защита информации\Indeformation-protection\RSA\obj\Debug\net6.0\RSA.genruntimeconfig.cache
