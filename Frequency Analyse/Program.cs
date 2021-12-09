@@ -11,9 +11,9 @@ namespace FA_Program
             var analyzer = new Analyzer("Война и мир.txt.enc");
             var fileName = "Война и мир.txt.enc";
             var path = Path.Combine(Directory.GetCurrentDirectory());
-            var decodedText = analyzer.MonoAnalyzeText(fileName);
-            File.WriteAllText(Path.Combine(path, $"{fileName}.out.txt"), decodedText);
-            decodedText = analyzer.BigramsAnalyze();
+            //var decodedText = analyzer.MonoAnalyzeText(fileName);
+            //File.WriteAllText(Path.Combine(path, $"{fileName}.out.txt"), decodedText);
+            var decodedText = analyzer.BigramsAnalyze();
             Console.WriteLine(decodedText);
         }
     }

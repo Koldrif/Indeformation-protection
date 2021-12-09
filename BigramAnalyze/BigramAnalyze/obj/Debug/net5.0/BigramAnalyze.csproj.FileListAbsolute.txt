@@ -1,0 +1,16 @@
+F:\Рабочее пространство\Универ\Защита информации\Indeformation-protection\BigramAnalyze\BigramAnalyze\bin\Debug\net5.0\BigramAnalyze.exe
+F:\Рабочее пространство\Универ\Защита информации\Indeformation-protection\BigramAnalyze\BigramAnalyze\bin\Debug\net5.0\BigramAnalyze.deps.json
+F:\Рабочее пространство\Универ\Защита информации\Indeformation-protection\BigramAnalyze\BigramAnalyze\bin\Debug\net5.0\BigramAnalyze.runtimeconfig.json
+F:\Рабочее пространство\Универ\Защита информации\Indeformation-protection\BigramAnalyze\BigramAnalyze\bin\Debug\net5.0\BigramAnalyze.runtimeconfig.dev.json
+F:\Рабочее пространство\Универ\Защита информации\Indeformation-protection\BigramAnalyze\BigramAnalyze\bin\Debug\net5.0\BigramAnalyze.dll
+F:\Рабочее пространство\Универ\Защита информации\Indeformation-protection\BigramAnalyze\BigramAnalyze\bin\Debug\net5.0\ref\BigramAnalyze.dll
+F:\Рабочее пространство\Универ\Защита информации\Indeformation-protection\BigramAnalyze\BigramAnalyze\bin\Debug\net5.0\BigramAnalyze.pdb
+F:\Рабочее пространство\Универ\Защита информации\Indeformation-protection\BigramAnalyze\BigramAnalyze\obj\Debug\net5.0\BigramAnalyze.csproj.AssemblyReference.cache
+F:\Рабочее пространство\Универ\Защита информации\Indeformation-protection\BigramAnalyze\BigramAnalyze\obj\Debug\net5.0\BigramAnalyze.GeneratedMSBuildEditorConfig.editorconfig
+F:\Рабочее пространство\Универ\Защита информации\Indeformation-protection\BigramAnalyze\BigramAnalyze\obj\Debug\net5.0\BigramAnalyze.AssemblyInfoInputs.cache
+F:\Рабочее пространство\Универ\Защита информации\Indeformation-protection\BigramAnalyze\BigramAnalyze\obj\Debug\net5.0\BigramAnalyze.AssemblyInfo.cs
+F:\Рабочее пространство\Универ\Защита информации\Indeformation-protection\BigramAnalyze\BigramAnalyze\obj\Debug\net5.0\BigramAnalyze.csproj.CoreCompileInputs.cache
+F:\Рабочее пространство\Универ\Защита информации\Indeformation-protection\BigramAnalyze\BigramAnalyze\obj\Debug\net5.0\BigramAnalyze.dll
+F:\Рабочее пространство\Универ\Защита информации\Indeformation-protection\BigramAnalyze\BigramAnalyze\obj\Debug\net5.0\ref\BigramAnalyze.dll
+F:\Рабочее пространство\Универ\Защита информации\Indeformation-protection\BigramAnalyze\BigramAnalyze\obj\Debug\net5.0\BigramAnalyze.pdb
+F:\Рабочее пространство\Универ\Защита информации\Indeformation-protection\BigramAnalyze\BigramAnalyze\obj\Debug\net5.0\BigramAnalyze.genruntimeconfig.cache
