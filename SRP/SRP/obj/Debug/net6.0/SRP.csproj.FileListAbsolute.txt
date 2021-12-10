@@ -1,0 +1,16 @@
+F:\Рабочее пространство\Универ\Защита информации\Indeformation-protection\SRP\SRP\bin\Debug\net6.0\SRP.exe
+F:\Рабочее пространство\Универ\Защита информации\Indeformation-protection\SRP\SRP\bin\Debug\net6.0\SRP.deps.json
+F:\Рабочее пространство\Универ\Защита информации\Indeformation-protection\SRP\SRP\bin\Debug\net6.0\SRP.runtimeconfig.json
+F:\Рабочее пространство\Универ\Защита информации\Indeformation-protection\SRP\SRP\bin\Debug\net6.0\SRP.dll
+F:\Рабочее пространство\Универ\Защита информации\Indeformation-protection\SRP\SRP\bin\Debug\net6.0\ref\SRP.dll
+F:\Рабочее пространство\Универ\Защита информации\Indeformation-protection\SRP\SRP\bin\Debug\net6.0\SRP.pdb
+F:\Рабочее пространство\Универ\Защита информации\Indeformation-protection\SRP\SRP\obj\Debug\net6.0\SRP.GlobalUsings.g.cs
+F:\Рабочее пространство\Универ\Защита информации\Indeformation-protection\SRP\SRP\obj\Debug\net6.0\SRP.csproj.AssemblyReference.cache
+F:\Рабочее пространство\Универ\Защита информации\Indeformation-protection\SRP\SRP\obj\Debug\net6.0\SRP.GeneratedMSBuildEditorConfig.editorconfig
+F:\Рабочее пространство\Универ\Защита информации\Indeformation-protection\SRP\SRP\obj\Debug\net6.0\SRP.AssemblyInfoInputs.cache
+F:\Рабочее пространство\Универ\Защита информации\Indeformation-protection\SRP\SRP\obj\Debug\net6.0\SRP.AssemblyInfo.cs
+F:\Рабочее пространство\Универ\Защита информации\Indeformation-protection\SRP\SRP\obj\Debug\net6.0\SRP.csproj.CoreCompileInputs.cache
+F:\Рабочее пространство\Универ\Защита информации\Indeformation-protection\SRP\SRP\obj\Debug\net6.0\SRP.dll
+F:\Рабочее пространство\Универ\Защита информации\Indeformation-protection\SRP\SRP\obj\Debug\net6.0\ref\SRP.dll
+F:\Рабочее пространство\Универ\Защита информации\Indeformation-protection\SRP\SRP\obj\Debug\net6.0\SRP.pdb
+F:\Рабочее пространство\Универ\Защита информации\Indeformation-protection\SRP\SRP\obj\Debug\net6.0\SRP.genruntimeconfig.cache
