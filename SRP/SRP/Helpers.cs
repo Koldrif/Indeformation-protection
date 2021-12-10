@@ -51,8 +51,37 @@ public static class Helpers
     public static BigInteger CumputeU(Func<byte[], byte[]> H, BigInteger A, BigInteger B)
     {
         return H(A.ToByteArray(true, true)
-                  .Concat(B.ToByteArray((true, true))
-                  .ToArray()))
-                  .ToSrpBigInt();
+                .Concat(B.ToByteArray(true, true))
+                .ToArray())
+                .ToSrpBigInt();
+    }
+    
+    public static BigInteger ComputeClientProof(
+        BigInteger N,
+        Func<byte[], byte[]> H,
+        BigInteger A,
+        BigInteger B,
+        BigInteger S)
+    {
+        var padLength = N.ToByteArray(true, true).Length;
+
+        // M1 = H( A | B | S )
+        return H((PadBytes(A.ToByteArray(true, true), padLength))
+                .Concat(PadBytes(B.ToByteArray(true, true), padLength))
+                .Concat(PadBytes(S.ToByteArray(true, true), padLength))
+                .ToArray())
+            .ToSrpBigInt();
+    }
+
+    public static BigInteger ComputeServerProof(BigInteger N, Func<byte[], byte[]> H, BigInteger A, BigInteger M1, BigInteger S)
+    {
+        var padLength = N.ToByteArray(true, true).Length;
+
+        // M2 = H( A | M1 | S )
+        return H((PadBytes(A.ToByteArray(true, true), padLength))
+                .Concat(PadBytes(M1.ToByteArray(true, true), padLength))
+                .Concat(PadBytes(S.ToByteArray(true, true), padLength))
+                .ToArray())
+            .ToSrpBigInt();
     }
 }
